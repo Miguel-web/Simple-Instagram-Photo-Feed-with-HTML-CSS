@@ -41,7 +41,11 @@ p {
     justify-content: space-around;
 }
 img {
-    margin-left: 50px;
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+    margin-left: 80px;
 }
+
 
 
