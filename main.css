@@ -1,23 +1,25 @@
 #bodygrey {
-    background-color: gray;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    height: 1500px;
 }
-#bigcontainer {
-    justify-content:space-between;
-}
-h1 {
-    align-self: center;
-}
-#contenedor {
-    width: 500px;
+#header {
+    margin-top: 0;
+    padding-top: 10px;
     background-color: white;
     
 }
+#title {
+    margin-left: 30%;
+    margin-top: 0;
+}
 .whitebox {
-    
+    width: 500px;
+    background-color: white;
     display: block;
     justify-content: center;
-    margin: auto;
-
+    margin-left: 30%;
 }
 img {
     height: 400px;
