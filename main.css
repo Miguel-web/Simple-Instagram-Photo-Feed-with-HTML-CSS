@@ -7,19 +7,42 @@
 #header {
     margin-top: 0;
     padding-top: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
     background-color: white;
-    
+    border: 1px solid black;
 }
 #title {
     margin-left: 30%;
     margin-top: 0;
 }
 .whitebox {
+    border-radius: 10px;
     width: 500px;
+    border: 1px solid black;
     background-color: white;
     display: block;
     justify-content: center;
     margin-left: 30%;
+}
+.horizontaltitles {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1, h2, h3 {
+    text-shadow: 1px 1px 2px pink;
+}
+h3 {
+    color: grey;
+    float: inline-end;
+    margin-top: 25px;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 img {
     height: 400px;
